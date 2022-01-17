@@ -12,7 +12,8 @@
   "rules": {
     "no-var": "error",
     "semi": "error",
-    "indent": ["error", 2],
+    "indent": "off",
+    "@typescript-eslint/indent": ["error", 2],
     "no-multi-spaces": "error",
     "space-in-parens": "error",
     "no-multiple-empty-lines": "error",
